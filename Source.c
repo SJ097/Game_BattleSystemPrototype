@@ -11,8 +11,8 @@
 //Opponent's stats in demonstration
 const int OPP_ATK = 5,
           OPP_DEF = 4,
-		  OPP_MAGIC = 1,
-		  OPP_SPD = 5,
+	  OPP_MAGIC = 1,
+	  OPP_SPD = 5,
           OPP_HP = 20;
 
 //Function prototypes
