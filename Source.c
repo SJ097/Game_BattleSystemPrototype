@@ -88,7 +88,7 @@ int main(void) {
 
 		//If no energy bars remain and its command is selected, loop will force user to select another command
 		while (command == 6 && counter == 0) {
-			printf("\nYou have no more energy bars! Do something else!: ");
+			printf("\nYou have no more energy bars! Do something else! ");
 			scanf("%d", &command);
 		}
 
