@@ -42,7 +42,7 @@ int main(void) {
 	scanf("%d", &hero);
 
 	//User prompted to enter valid integer if they entered an invalid one
-	if (!(hero <= 3 && hero >= 1))
+	while (!(hero <= 3 && hero >= 1))
 		hero = tryAgain();
 
 	//Default HP (health point) total in trial
